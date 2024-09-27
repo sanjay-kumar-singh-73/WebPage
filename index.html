@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>File Upload & Preview Demo</title>
+</head>
+<body>
+    <!-- User Authentication Section -->
+    <div id="login-container">
+        <h2>Login</h2>
+        <form id="login-form">
+            <input type="text" id="username"  class="sanjay" placeholder="Username" required><br>
+            <input type="password" id="password" class="sanjay" placeholder="Password" required><br>
+            <button type="submit" class="sanjay02">Login</button>
+        </form>
+    </div>
+
+    <!-- Main Content Section -->
+    <div id="content" class="hidden">
+        <h2>Upload and Preview File</h2>
+        <input type="file" id="fileInput" accept="image/*,audio/*,video/*,.pdf">
+        <div id="preview-container"></div>
+        <button id="uploadBtn" class="hidden">Upload Image</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
